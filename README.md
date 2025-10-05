@@ -26,6 +26,8 @@ FILE_NAME_CONVERT=('C:\APP\ORADATA\ORCL\PDBSEED',
 
 **Creation:**
 
+### SQL Commands:
+
 ```sql
 CREATE PLUGGABLE DATABASE ce_to_delete_pdb_27400
 ADMIN USER celine_plsqlauca_27400 IDENTIFIED BY "Celine12!"
@@ -38,6 +40,8 @@ FILE_NAME_CONVERT (
 ![Task 2 Creation](Screenshots/step2%20a.PNG)
 
 **Deletion:**
+
+### SQL Commands:
 
 ```sql
 DROP PLUGGABLE DATABASE ce_to_delete_pdb_27400 INCLUDING DATAFILES;
