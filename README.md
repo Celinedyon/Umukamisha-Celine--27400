@@ -10,6 +10,14 @@
 
 **Result:** Pluggable database ce_pdb_27400 was successfully created with admin user celine_plsqlauca_27400.
 
+### SQL Commands:
+
+```sql
+CREATE PLUGGABLE DATABASE ce_pdb_27400
+ADMIN USER celine_plsqlauca_27400 IDENTIFIED BY "Celine12!"
+FILE_NAME_CONVERT=('C:\APP\ORADATA\ORCL\PDBSEED',
+'C:\APP\ORADATA\ORCL\CE_PDB_27400\');
+```
 ![Task 1 Screenshot](Screenshots/step%201a.PNG)
 
 ## TASK 2: CREATE AND DELETE A PDB
@@ -18,10 +26,22 @@
 
 **Creation:**
 
+```sql
+CREATE PLUGGABLE DATABASE ce_to_delete_pdb_27400
+ADMIN USER celine_plsqlauca_27400 IDENTIFIED BY "Celine12!"
+FILE_NAME_CONVERT (
+'C:\APP\ORADATA\ORCL\PDBSEED',
+'C:\APP\ORADATA\ORCL\CE_TO_DELETE_PDB_27400\'
+);
+```
+
 ![Task 2 Creation](Screenshots/step2%20a.PNG)
 
 **Deletion:**
 
+```sql
+DROP PLUGGABLE DATABASE ce_to_delete_pdb_27400 INCLUDING DATAFILES;
+```
 ![Task 2 Deletion](Screenshots/step2%20b.PNG)
 
 **Result:** Pluggable database was successfully created and then completely removed including all associated datafiles.
