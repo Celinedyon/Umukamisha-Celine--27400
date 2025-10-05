@@ -10,7 +10,7 @@
 
 **Result:** Pluggable database ce_pdb_27400 was successfully created with admin user celine_plsqlauca_27400.
 
-![Task 1 Screenshot](images/task1.png)
+![Task 1 Screenshot](Screenshots/step%201a.PNG)
 
 ## TASK 2: CREATE AND DELETE A PDB
 
@@ -18,11 +18,11 @@
 
 **Creation:**
 
-![Task 2 Creation](images/task2-creation.png)
+![Task 2 Creation](Screenshots/step2%20a.PNG)
 
 **Deletion:**
 
-![Task 2 Deletion](images/task2-deletion.png)
+![Task 2 Deletion](Screenshots/step2%20b.PNG)
 
 **Result:** Pluggable database was successfully created and then completely removed including all associated datafiles.
 
@@ -45,11 +45,11 @@
 
 **Login with SYS and Password**
 
-![OEM Login](images/oem-login.png)
+![OEM Login](Screenshots/step3%20b.PNG)
 
 **Dashboard**
 
-![OEM Dashboard](images/oem-dashboard.png)
+![OEM Dashboard](Screenshots/step3%20d.PNG)
 
 ## ISSUES ENCOUNTERED AND SOLUTIONS
 
