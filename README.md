@@ -54,8 +54,9 @@
 ## ISSUES ENCOUNTERED AND SOLUTIONS
 
 1. **PDB User Authentication in OEM:** Attempted to login to Enterprise Manager using the PDB-specific user account but encountered "Invalid Database Credentials" errors. This was resolved by using the SYS account, which is the appropriate administrative account for OEM access in Oracle Express Edition.
+![Task 2 Deletion](Screenshots/issue.PNG)
 
-2. No other significant issues encountered. All SQL commands executed successfully on first attempt.
+3. No other significant issues encountered. All SQL commands executed successfully on first attempt.
 
 ## CONCLUSION
 
